@@ -25,3 +25,9 @@ def heigher_order_func(params):
 
 hof = heigher_order_func('func1')
 print(hof('Raju'))
+
+# Example of filter function
+
+list_data = [22,23,24,25,26,27,28]
+filter_obj = filter(lambda num:True if num%2 == 0 else False,list_data)
+print(list(filter_obj))
