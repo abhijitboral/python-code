@@ -3,13 +3,18 @@ import copy
 
 
 # Type of arguments:
-# 1. Positional arguments
-# 2. Keyword arguments
-# 3. Default arguments
-# 4. Variable names arguments
-# 5. Variable Length Positional Arguments (*args)
-# 6. Variable Length Keyword Arguments (**kwargs)
-# 7. Fast class objects 
+# 1.  Positional arguments
+# 2.  Keyword arguments
+# 3.  Default arguments
+# 4.  Variable names arguments
+# 5.  Variable Length Positional Arguments (*args)
+# 6.  Variable Length Keyword Arguments (**kwargs)
+# 7.  Fast class objects 
+# 8.  Types of namespase (Biult-in,global or module level, Local,Enclosed )
+# 9.  Direct Recursion
+# 10. Indirect Recursion
+# 11. NonLocal variable and LEGB Rule 
+# 12. Callable Object
 
 # print("hello world")
 
