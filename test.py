@@ -15,6 +15,8 @@ import copy
 # 10. Indirect Recursion
 # 11. NonLocal variable and LEGB Rule 
 # 12. Callable Object
+# 13. Partial Function
+# 14. Symbol Table
 
 # print("hello world")
 
