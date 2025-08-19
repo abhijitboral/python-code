@@ -4,14 +4,22 @@ class Parent:
         self.exp = exp
     def display(self,name):
         return f"The employee Name is: {name} and his Experince is: {self.exp} and Salary is: {self.sal}"
+    def method_overriding(self):
+        print("method called from parent")
+
+p_obj = Parent(500000,30)
+p_obj.method_overriding()
 
 class Child(Parent):
     age = 34
     # def __init__(self, sal, exp):
     #     super().__init__(sal, exp)
+    def method_overriding(self):
+        print("method called from child")
 
 
 obj = Child(100000,10)
+obj.method_overriding()
 print(f'display the name: {obj.display('Abhijit')}')
 print(f'display the age: {obj.age}')
 

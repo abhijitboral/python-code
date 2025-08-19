@@ -71,6 +71,19 @@ for char in str:
 
 print("Reversed string:", rev_str)
 
+# Example of reversed sting
+name = 'abhijit'
+print(f"Reversed string: ",''.join(reversed(name)))
+
+reversed_str = []
+for i in reversed(name):
+    reversed_str.append(i)
+
+r_str = ''.join(reversed_str)
+print(f"Reversed string with Loop: ",r_str)
+reverse = lambda nm: "".join(reversed(nm))
+print(f"Reversed using Lambda",reverse(r_str))
+
 # shallow copy example
 list = [1, 2, 3, 4, 5]
 new_list = copy.copy(list)
