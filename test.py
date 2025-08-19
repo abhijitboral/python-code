@@ -17,6 +17,11 @@ import copy
 # 12. Callable Object
 # 13. Partial Function
 # 14. Symbol Table
+# 15. Types of variable (instance variable / class variable)
+# 16. Enumeration
+# 18. Instance Variable / Method
+# 19. Class Variable / Method
+# 20. MRO (Method Resolution Order)
 
 # print("hello world")
 
