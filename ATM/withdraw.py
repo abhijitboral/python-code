@@ -13,11 +13,10 @@ class ATM(Payment):
         pass
     
     def withdraw(self):
-        pin = int(input('Enter your pin:'))
         try:
+            pin = int(input('Enter your pin:'))
             if self.__original_pin == pin:
                 amount = float(input('Please enter your amount:'))
-                print(amount)
                 if amount >= self.__main_balance:
                     raise Exception('Insuficient amount')
                 else:
